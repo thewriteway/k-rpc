@@ -2,6 +2,7 @@
   "name": "k-rpc",
   "version": "5.1.0",
   "description": "Low-level implementation of the k-rpc protocol used the BitTorrent DHT.",
+  "type": "module",
   "main": "index.js",
   "dependencies": {
     "k-bucket": "^5.0.0",
@@ -9,6 +10,11 @@
     "randombytes": "^2.0.5"
   },
   "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
     "standard": "*",
     "tape": "^4.4.0"
   },
